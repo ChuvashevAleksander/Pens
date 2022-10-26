@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'pentest.apps.PentestConfig',
     'rest_framework',
     'django_filters',
+    'rest_framework.authtoken',
+    'drf_registration',
 ]
 
 MIDDLEWARE = [
